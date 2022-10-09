@@ -17,7 +17,7 @@ html, body {
      height: auto !important;
      margin-bottom:5px;
      filter: grayscale(100%);
-     transition: filter 1s;
+     transition: filter 0.5s;
 }
 
  #gallery img:hover {
