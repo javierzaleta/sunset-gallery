@@ -1,0 +1,40 @@
+#gallery {
+			line-height:0;
+			column-count:5;
+			column-gap:5px;
+			margin-top:2rem;
+		}
+
+		#gallery img {
+			width: 100% !important;
+			height: auto !important;
+			margin-bottom:5px;
+			filter: grayscale(100%);
+			transition: filter 3s;
+		}
+
+		#gallery img:hover {
+			filter:none;
+		}
+
+@media (max-width: 1200px) {
+			#gallery {
+				column-count:         4;
+			}
+		}
+		@media (max-width: 1000px) {
+			#gallery {
+				column-count:         3;
+			}
+		}
+		@media (max-width: 800px) {
+			#gallery {
+				column-count:         2;
+			}
+		}
+		@media (max-width: 400px) {
+			#gallery {
+				column-count:         1;
+			}
+		}
+
